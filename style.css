@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  background: #f5f2e9;
+}
+
+.fundo-grid {
+  padding: 3rem;
+  background-color: #f5f2e9;
+  background-image: linear-gradient(
+      to right,
+      rgba(177, 185, 172, 1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(177, 185, 172, 1) 1px, transparent 1px);
+  background-size: 15px 15px;
+  margin: 50px auto;
+}
+
+.fundo-grid h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #314628;
+}
+
+.fundo-grid p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  color: #314628;
+}
+
+.titulo-anotaçoes {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  font-size: 1.2rem;
+  color: #314628;
+  font-style: bold;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #314628;
+}
+
+.titulo-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.anotaçoes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+  text-align: justify;
+}
+.sentimento {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-style: italic;
+    color: #f5f2e9;
+    background: #314628;
+    border-radius: 10px;
+    width: 90px;
+    padding: 4px;
+    
+    
+}
+
+/* Aqui começa a mágica da responsividade! */
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+
+  .fundo-grid h1 {
+        font-size: 2rem;
+    }
+
+
+  .anotaçoes {
+    padding: 40px;
+  }
+
+  .sentimento {
+    width: 110px;
+    margin: 18px;
+  }
+
+
+
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 22px;
+  }
+
+
+    .fundo-grid h1 {
+        font-size: 2.2rem;
+    }
+
+  .anotaçoes{
+    padding: 50px;
+  }
+
+   .sentimento {
+    display: flex;
+    font-style: italic;
+    color: #f5f2e9;
+    background: #314628;
+    border-radius: 10px;
+    width: 120px;
+    padding: 5px;
+    margin-right: 13px;
+ }
+
+ 
+    
+}
