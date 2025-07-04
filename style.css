@@ -41,10 +41,9 @@ body {
   color: #314628;
 }
 
-.titulo-anotaçoes {
+.titulo-anotacoes {
   text-align: center;
   justify-content: center;
-  padding-bottom: 40px;
   font-size: 1.2rem;
   color: #314628;
   font-style: bold;
@@ -60,9 +59,10 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 150px;
 }
 
-.anotaçoes {
+.anotacoes {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -70,21 +70,33 @@ h2 {
   padding: 20px;
   text-align: justify;
 }
-.sentimento {
-    display: flex;
-    justify-content: end;
+
+.texto {
+  margin-top: 20px;
+}
+
+
+footer .sentimento {
+    display: inline-block;
     position: absolute;
-    bottom: 1rem;
     right: 1rem;
     font-style: italic;
     color: #f5f2e9;
     background: #314628;
     border-radius: 10px;
-    width: 90px;
     padding: 4px;
     
-    
 }
+
+ .assinatura-site {
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  min-height: 40px;
+  background: #314628;
+  color: #f5f2e9;
+ }
+
 
 /* Aqui começa a mágica da responsividade! */
 
@@ -98,12 +110,12 @@ h2 {
     }
 
 
-  .anotaçoes {
+  .anotacoes {
     padding: 40px;
   }
 
-  .sentimento {
-    width: 110px;
+  footer .sentimento {
+    display: inline-block;
     margin: 18px;
   }
 
@@ -121,17 +133,16 @@ h2 {
         font-size: 2.2rem;
     }
 
-  .anotaçoes{
+  .anotacoes{
     padding: 50px;
   }
 
-   .sentimento {
-    display: flex;
+   footer .sentimento {
+    display: inline-block;
     font-style: italic;
     color: #f5f2e9;
     background: #314628;
     border-radius: 10px;
-    width: 120px;
     padding: 5px;
     margin-right: 13px;
  }
