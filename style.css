@@ -97,6 +97,18 @@ footer .sentimento {
   color: #f5f2e9;
  }
 
+ button {
+  margin-top: 12px;
+  padding: 5px;
+  position: absolute;
+  right: 1px;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  background: #314628;
+  color: #f5f2e9;
+ }
+
 
 /* Aqui começa a mágica da responsividade! */
 
@@ -119,7 +131,17 @@ footer .sentimento {
     margin: 18px;
   }
 
-
+button {
+  margin-top: 12px;
+  padding: 5px;
+  position: absolute;
+  right: 1px;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  background: #314628;
+  color: #f5f2e9;
+ }
 
 }
 
@@ -147,6 +169,16 @@ footer .sentimento {
     margin-right: 13px;
  }
 
- 
+ button {
+  margin-top: 12px;
+  padding: 5px;
+  position: absolute;
+  right: 1px;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  background: #314628;
+  color: #f5f2e9;
+ }
     
 }
