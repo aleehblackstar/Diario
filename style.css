@@ -75,27 +75,26 @@ h2 {
   margin-top: 20px;
 }
 
-
 footer .sentimento {
-    display: inline-block;
-    position: absolute;
-    right: 1rem;
-    font-style: italic;
-    color: #f5f2e9;
-    background: #314628;
-    border-radius: 10px;
-    padding: 4px;
-    
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+  font-style: italic;
+  color: #f5f2e9;
+  background: #314628;
+  border-radius: 10px;
+  padding: 4px;
 }
 
- .assinatura-site {
+.assinatura-site {
   text-align: center;
+  flex-direction: column;
   margin-top: 50px;
   width: 100%;
-  min-height: 40px;
   background: #314628;
   color: #f5f2e9;
- }
+  font-size: medium;
+}
 
  button {
   margin-top: 12px;
@@ -118,9 +117,8 @@ footer .sentimento {
   }
 
   .fundo-grid h1 {
-        font-size: 2rem;
-    }
-
+    font-size: 2rem;
+  }
 
   .anotacoes {
     padding: 40px;
@@ -150,22 +148,21 @@ button {
     font-size: 22px;
   }
 
+  .fundo-grid h1 {
+    font-size: 2.2rem;
+  }
 
-    .fundo-grid h1 {
-        font-size: 2.2rem;
-    }
-
-  .anotacoes{
+  .anotacoes {
     padding: 50px;
   }
 
-   footer .sentimento {
+  footer .sentimento {
     display: inline-block;
     font-style: italic;
     color: #f5f2e9;
     background: #314628;
     border-radius: 10px;
-    padding: 5px;
+    padding: 0;
     margin-right: 13px;
  }
 
