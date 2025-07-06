@@ -59,9 +59,3 @@ A página possui um visual limpo e organizado, com:
 - Compatibilidade com diferentes dispositivos
 
 ---
-
-## 📁 Como visualizar
-
-Você pode abrir o arquivo `index.html` diretamente no navegador para visualizar a página funcionando.
-
----
