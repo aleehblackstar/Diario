@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maka Dev / Diário</title>
+    <title>Diário / Maka Dev</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-        <button id="modo-noturno">☀️ Modo Dark 🌙</button>
+      <button id="modo-noturno">☀️ 🌙</button>
       <div class="fundo-grid">
         <h1>Palavras ao Vento</h1>
         <p>Meu diário pessoal, reflexões...</p>
@@ -145,6 +145,15 @@
         </article>
       </section>
     </main>
+
+    <script>
+      const button = document.getElementById("modo-noturno");
+
+      button.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark-mode");
+      });
+    </script>
+
     <footer class="assinatura-site">
       <p>Alexandre Rodrigues</p>
       <p>© 2025</p>
