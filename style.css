@@ -112,6 +112,8 @@ footer .sentimento {
   right: 1.2rem;
   font-style: italic;
   border-radius: 10px;
+  background: var(--dark);
+    color: var(--light);
 }
 
 .assinatura-site {
@@ -155,6 +157,8 @@ button {
   footer .sentimento {
     display: inline-block;
     margin: 18px;
+    background: var(--dark);
+    color: var(--light);
   }
 
   button {
