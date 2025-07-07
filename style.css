@@ -125,13 +125,13 @@ footer .sentimento {
 }
 
 button {
-  margin-top: 12px;
+  margin-top: 8px;
   padding: 5px;
   position: absolute;
   right: 1px;
   border: none;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 18px;
   background: var(--dark);
   color: var(--light);
   cursor: pointer;
@@ -158,13 +158,12 @@ button {
   }
 
   button {
-    margin-top: 12px;
+    margin-top: 8px;
     padding: 5px;
     position: absolute;
     right: 1px;
     border: none;
     border-radius: 10px;
-    font-size: 12px;
     background: var(--dark);
     color: var(--light);
   }
@@ -195,13 +194,12 @@ button {
   }
 
   button {
-    margin-top: 12px;
+    margin-top: 8px;
     padding: 5px;
     position: absolute;
     right: 1px;
     border: none;
     border-radius: 10px;
-    font-size: 13px;
     background: var(--dark);
     color: var(--light);
   }
